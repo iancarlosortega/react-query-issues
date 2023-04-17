@@ -25,7 +25,7 @@ export const LabelPicker: FC<Props> = ({ selectedLabels, onChange }) => {
 					onClick={() => onChange(label.name)}
 					style={{
 						border: `1px solid #${label.color}`,
-						color: `${label.color}`,
+						color: `#${label.color}`,
 					}}>
 					{label.name}
 				</span>
